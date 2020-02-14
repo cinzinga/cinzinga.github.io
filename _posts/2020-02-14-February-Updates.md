@@ -11,7 +11,7 @@ tags:
   - Certification
 ---
 
-I figure it is about time for another blog post, since it has been just over one month since my last one. However, I am feeling a little lazy so in this entry I will simply list accomplishments and noteworthy things that have occurred in the last 30 days or so. Honestly each of these on their own warrant a blog post, perhaps in the future I will come back and expand on each of them more.   
+I figure it is about time for another blog post, as it has been just over one month since my last one. However, I am feeling a little lazy so in this entry I will simply list accomplishments and noteworthy things that have occurred in the last 30 days or so. Honestly each of these on their own warrants a blog post, perhaps in the future I will come back and expand on each of them more.   
 
 ## Publications  
 - [CVE-2020-6637](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-6637)
