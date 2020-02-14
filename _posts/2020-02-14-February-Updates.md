@@ -30,7 +30,7 @@ I personally found Virtual Hacking Labs to be very fun and a good change of pace
 
 ## Projects  
 
-- Cowrie Honeypot 
+- Cowrie Honeypot   
 Recently I have set up a honeypot using the Cowrie software. All captured malware samples can be viewed [here](https://github.com/cinzinga/HoneypotStuff/tree/master/Samples). This is purely for personal entertainment as I like to see how many times it gets attacked each day, what commands the bots run, and what malware samples I can catch and identify. 
 
 - GitHub_Autopwn  
