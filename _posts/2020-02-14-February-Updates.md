@@ -34,7 +34,7 @@ I personally found Virtual Hacking Labs to be very fun and a good change of pace
 Recently I have set up a honeypot using the Cowrie software. All captured malware samples can be viewed [here](https://github.com/cinzinga/HoneypotStuff/tree/master/Samples). This is purely for personal entertainment as I like to see how many times it gets attacked each day, what commands the bots run, and what malware samples I can catch and identify. 
 
 - GitHub_Autopwn  
-I can hardly call this a project of my own; however, it is the child of a discussion m0rph-1 and I had one evening. Both him and I enjoy hunting for CVEs, we thought that a great tool to aid in identification of vulnerable could would be a static code analyzer that can be directed at a GitHub repository. This way it would save us the time of cloning a repo and then running a code analyzer. He is an amazing coder and wrote it in about 24 hours. It helped in earning use CVE-2020-7208 and 7208. The code can be viewed [here](https://github.com/m0rph-1/github_autopwn)
+I can hardly call this a project of my own; however, it is the child of a discussion m0rph-1 and I had one evening. Both him and I enjoy hunting for CVEs, we thought that a great tool to aid in identification of vulnerabilities would be a static code analyzer that can be directed at a GitHub repository. This way it would save us the time of cloning a repo and then running a code analyzer. He is an amazing coder and wrote it in about 24 hours. It helped in earning us CVE-2020-7208 and 7208. The code can be viewed [here](https://github.com/m0rph-1/github_autopwn)
 
 
 ## Other   
