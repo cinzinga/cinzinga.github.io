@@ -15,11 +15,11 @@ I figure it is about time for another blog post, as it has been just over one mo
 
 ## Publications  
 - [CVE-2020-6637](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-6637)
-	* This CVE’s status is still ‘reserved’ because I am allowing the vendor 90 days from discovery before publication
+	* This CVE’s status is still ‘reserved’ because I am allowing the vendor 90 days from discovery before publication.
 - [CVE-2020-7208](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7208)
-	* This vulnerability was a joint discovery with [m0rph-1](https://github.com/m0rph-1)
+	* This vulnerability was a joint discovery with [m0rph-1](https://github.com/m0rph-1).
 - [CVE-2020-7209](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7209)
-	* This vulnerability was a joint discovery with [m0rph-1](https://github.com/m0rph-1)
+	* This vulnerability was a joint discovery with [m0rph-1](https://github.com/m0rph-1).
 
 ## Certifications  
 - [Penetration Testing Course](https://www.virtualhackinglabs.com/?courses=penetration-testing)
