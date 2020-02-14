@@ -26,7 +26,7 @@ I figure it is about time for another blog post, as it has been just over one mo
 
 - [Penetration Testing Course Advanced+](https://www.virtualhackinglabs.com/?courses=penetration-testing)
 
-I personally found Virtual Hacking Labs to be very fun and a good change of pace. I enjoyed the flat network topology, so I did not have to worry about dependencies or tunneling. The boxes were generally on the easier side, taking me just 14 days to root 41 machines. Only complaints were that too many privilege escalation routes depended on kernel exploits. Additionally, I found the number of Windows machines to be lacking. Definitely a fun cyber range though.  
+I personally found Virtual Hacking Labs to be very fun and a good change of pace. I enjoyed the flat network topology, so I did not have to worry about dependencies or tunneling. The boxes were generally on the easier side, taking me just 14 days to root 41 machines. Only complaints were that too many privilege escalation routes depended on kernel exploits. Additionally, I found the number of Windows machines to be lacking. However, it was definitely a fun cyber range.  
 
 ## Projects  
 
