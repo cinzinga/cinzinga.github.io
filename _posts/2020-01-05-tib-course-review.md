@@ -15,7 +15,7 @@ This post is a brief review of Tib3rius’ [Linux Privilege Escalation](https://
 
 ## Background   
 
-I learned about this course from the [InfoSec-Prep Discord]( https://discord.gg/KUBnsG), which is a phenomenal resource for those planning to take the OSCP. Tib3rius is an administrator in this Discord server and is active almost every day, answering questions and providing advice about penetration testing. He is also the author of [AutoRecon](https://github.com/Tib3rius/AutoRecon), an incredibly helpful network reconnaissance tool that I found crucial to have during both PWK and the OSCP.   
+I learned about this course from the [InfoSec-Prep Discord](https://discord.gg/TyZpfAs), which is a phenomenal resource for those planning to take the OSCP. Tib3rius is an administrator in this Discord server and is active almost every day, answering questions and providing advice about penetration testing. He is also the author of [AutoRecon](https://github.com/Tib3rius/AutoRecon), an incredibly helpful network reconnaissance tool that I found crucial to have during both PWK and the OSCP.   
 
 ## About the Course   
 

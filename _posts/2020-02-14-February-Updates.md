@@ -39,7 +39,7 @@ I can hardly call this a project of my own; however, it is the child of a discus
 ## Other   
 
 - Promotion to Discord Moderator   
-If you have read some of my other posts, you will notice I mention the [InfoSec-Prep Discord](https://discord.gg/CDfvPb) often. This server contains over 5000 cyber security students or professions, including just shy of 600 OSCP certified members. It is a phenomenal place to learn and share ideas.   
+If you have read some of my other posts, you will notice I mention the [InfoSec-Prep Discord](https://discord.gg/TyZpfAs) often. This server contains over 5000 cyber security students or professions, including just shy of 600 OSCP certified members. It is a phenomenal place to learn and share ideas.   
 
 
 
