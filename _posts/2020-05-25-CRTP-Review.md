@@ -38,5 +38,10 @@ In the end my lab report totaled about 20 pages and for my efforts I was awarded
 I highly recommend CRTP for those like me who have OSCP but feel as though they lack active directory experience. I greatly enjoyed how I did not have to use a VM for the course since students RDP directly into their foothold machine. Everything in the course is done via PowerShell which provided a great learning experience. Moreover, the course can be completed relatively quickly in just 30 days. In the future I will definitely consider taking the level 2 AD course: CRTE.
 
 
-![](/assets/images/CRTP/2.png)  
+![](/assets/images/CRTP/2.png)   
+
+
+
+![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fcinzinga.github.io%2FCRTP-Review%2F)
+
 
