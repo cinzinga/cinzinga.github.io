@@ -10,8 +10,6 @@ tags:
   - Penetration Testing
 ---
 
-## Introduction  
-
 This last week I took and passed the Certified Red Team Professional exam. [Certified Red Team Professional (CRTP)](https://www.pentesteracademy.com/activedirectorylab) is the introductory level Active Directory Certification offered by Pentester Academy. The course is taught by Nikhil Mittal, who is the author of [Nishang](https://github.com/samratashok/nishang) and frequently speaks at various conventions.
 
 ## Labs   
