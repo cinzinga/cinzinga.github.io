@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "cinzinga"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "OSCP / CEH / Sec+ / eWPT / eJPT"
+  bio    : "OSCP / CEH / Sec+ / CRTP / eWPT"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
