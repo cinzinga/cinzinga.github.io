@@ -10,7 +10,7 @@ tags:
   - Penetration Testing
 ---  
 
-On April 1st, I decided to try my hand at bug bounty hunting. What started initially as a short experiment quickly (de)evolved into a daily obsession and a full-time hobby. In this post I will talk briefly about my experiences and impressions.  
+On April 1st, I decided to try my hand at bug bounty hunting. What started initially as a short experiment quickly evolved into a daily obsession and a full-time hobby. In this post I will talk briefly about my experiences and impressions.  
 
 ## Preface    
 
