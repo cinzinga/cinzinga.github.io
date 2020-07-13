@@ -21,7 +21,7 @@ From my time in the InfoSec Prep discord, as well as on Twitter, I gleaned the c
 Initially I sat down to hash out my goals for this endeavor. I did not simply want to aimlessly throw payloads at websites for a month without any end goal. After a bit of thought I determined the following (in order of increasing difficulty):
 -	Find at least one valid, paid bug (not a duplicate)
 -	Purchase a Burp Pro license with the profits
-o	The Burp Pro trial is 30 days, so this seemed like a good goal to add
+	-	The Burp Pro trial is 30 days, so this seemed like a good goal to add
 -	See how high of a rank I could achieve in 1 month
 -	Determine if this venture is viable long term for a beginner like myself  
 
