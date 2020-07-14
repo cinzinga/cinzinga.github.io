@@ -49,9 +49,11 @@ Ironically enough in this time I have never submitted a paid bug to HackerOne. T
 As a college student, bug bounty hunting has been an amazing opportunity. It has allowed me to target actual websites to hone my web application testing skill while simultaneously practice writing short reports. The knowledge gained has been free and beyond that of any certification I have taken thus far. I fully intend to continue learning and submitting bugs as I can while finishing my degree. Perhaps at that point in time I will choose to pursue this as a full-time career. It’s tough to know for certain but success is easily obtainable for those who put in the hours each day. There is no “big secret” to bug hunting that you will learn from YouTube videos or blog posts, simply dedicate the time and you will see the results. Go start hunting today!  
 
 ## Profiles  
-[BugCrowd](https://bugcrowd.com/cinzinga)
-[HackerOne](https://hackerone.com/cinzinga)
-Synack.- private.
+[BugCrowd](https://bugcrowd.com/cinzinga)  
+
+[HackerOne](https://hackerone.com/cinzinga)  
+
+Synack.- private.  
 
 
 
