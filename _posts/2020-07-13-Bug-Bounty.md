@@ -39,7 +39,7 @@ At the end of 100 days my notable stats are as follows:
 -	Background checked on BugCrowd (NGPT eligible)
 -	Four critical submission (SQLi)
 -	Applied and accepted to Synack Red Team
--	Enough rewards to buy 100x Burp Pro licenses  
+-	Enough rewards to buy 100 years of Burp Pro licenses  
 
 Ironically enough in this time I have never submitted a paid bug to HackerOne. This is on my to-do list and I feel as though I need to become more established there; however, with two other sites to hack for I find my time is limited.  
 
