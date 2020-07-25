@@ -62,7 +62,8 @@ author:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://cinzinga.github.io"
+      url: "https://cinzinga.com"
+
 #    - label: "Twitter"
 #      icon: "fab fa-fw fa-twitter-square"
 #      url: 
@@ -72,6 +73,12 @@ author:
 #    - label: "LinkedIn"
 #      icon: "fab fa-fw fa-linkedin"
 #      url: 
+    - label: "BugCrowd"
+      icon: "fas fa-fw fa-link"
+      url: "https://bugcrowd.com/cinzinga"
+    - label: "HackerOne"
+      icon: "fas fa-fw fa-link"
+      url: "https://hackerone.com/cinzinga"
 
 footer:
   links:
@@ -84,6 +91,7 @@ footer:
 #    - label: "Instagram"
 #      icon: "fab fa-fw fa-instagram"
 #      url: "https://instagram.com/"
+
 
 defaults:
   # _posts

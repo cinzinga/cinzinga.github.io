@@ -36,7 +36,7 @@ Remember my goals outlined above? My first paid bug actually knocked out goal #1
 
 At the end of 100 days my notable stats are as follows:
 -	Top 330 on BugCrowd (top 0.35% globally)
--	Background checked on BugCrowd (NGPT eligible)
+-	Background checked on BugCrowd ("Next Gen Pen Test" eligible)
 -	Four critical submission (SQLi)
 -	Applied and accepted to Synack Red Team
 -	Enough rewards to buy 100 years of Burp Pro licenses  
