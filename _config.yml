@@ -76,9 +76,6 @@ author:
     - label: "BugCrowd"
       icon: "fas fa-fw fa-link"
       url: "https://bugcrowd.com/cinzinga"
-    - label: "HackerOne"
-      icon: "fas fa-fw fa-link"
-      url: "https://hackerone.com/cinzinga"
 
 footer:
   links:
