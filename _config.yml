@@ -58,30 +58,30 @@ plugins:
 author:
   name   : "cinzinga"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "OSCP / CEH / Sec+ / CRTP / eWPT"
+  bio    : "OSCP \| CEH \| Sec+"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://cinzinga.com"
 
-#    - label: "Twitter"
-#      icon: "fab fa-fw fa-twitter-square"
-#      url: 
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: https://twitter.com/cinzinga_
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/cinzinga"
-#    - label: "LinkedIn"
-#      icon: "fab fa-fw fa-linkedin"
-#      url: 
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: https://www.linkedin.com/in/christopher-inzinga/
     - label: "BugCrowd"
       icon: "fas fa-fw fa-link"
       url: "https://bugcrowd.com/cinzinga"
 
 footer:
   links:
-#    - label: "Twitter"
-#      icon: "fab fa-fw fa-twitter-square"
-#      url: "https://twitter.com/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/cinzinga_"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/cinzinga"
