@@ -18,4 +18,4 @@ I work as a cyber threat intelligence intern at a company in New Boston, NH. The
 Additionally, I am an active bug bounty hunter with Synack Red Team and Bugcrowd (currently ranked in the all-time top 150).
 
 ## Home Life
-In my free time I enjoy the outdoors, walking my dogs, and listening to audiobooks. I am also an avid Star Wars fan. I also enjoying brewing my own beer.
+In my free time I enjoy the outdoors, walking my dogs, and listening to audiobooks. I am also an avid Star Wars fan and enjoy brewing my own beer!
