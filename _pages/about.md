@@ -3,8 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-![](/assets/images/profile.png)
-<img src="/assets/images/profile.png" alt="drawing" width="200"/>
+<img src="https://cinzinga.com/assets/images/profile.png" alt="profile" width="50"/>
 
 My name is Chris Inzinga. I am a current student studying information technology and computer information systems. I am an aspiring information security professional specializing in offensive security.
 
