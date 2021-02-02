@@ -2,3 +2,6 @@ _site
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
+_pages/.DS_Store
+_posts/.DS_Store
+assets/images/Exploit-Dev/OpenSIS/.DS_Store
