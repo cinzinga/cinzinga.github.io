@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Ramblings of a Top 100 Bug Hunter
+title: Ramblings of a Bug Hunter
 date: 2021-02-15
 classes: wide
 header:
