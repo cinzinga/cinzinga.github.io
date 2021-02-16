@@ -10,7 +10,7 @@ tags:
   - Penetration Testing
 --- 
 
-Today marks a huge personal milestone in my bug bounty hunting career. I have achieved an all-time ranking of top 100 on Bugcrowd. This accomplish comes just 11 months after first creating an account on the Bugcrowd platform. In this blog post I will endeavor to highlight a few things I have learned along the way. This blog post will contain some insights into the types and number of bugs I have submitted as well as any miscellaneous tips I think of while writing this.  
+Today marks a huge personal milestone in my bug bounty hunting career. I have achieved an all-time ranking of top 100 on Bugcrowd. This accomplishment comes just 11 months after first creating an account on the Bugcrowd platform. In this blog post I will endeavor to highlight a few things I have learned along the way. This blog post will contain some insights into the types and number of bugs I have submitted as well as any miscellaneous tips I think of while writing this.  
 
 ## Hack for Fun
 The first point I would like to emphasize is the fun and learning involved in hacking. In my opinion, going into bug hunting with the sole desire to make money is unadvisable. I first started bug hunting after finishing eLearn Security’s web application pentester certification and decided I wanted to try hacking on real websites. I’ve learned so much more doing bug hunting than I have in any certification (and as an added bonus I get paid to learn this way rather than paying to learn)!  
