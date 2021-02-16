@@ -58,3 +58,6 @@ Figure 4: Number of Submitted Bugs per Category
 
 Figure 5: Points, Rank, Accuracy  
 
+
+
+![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fcinzinga.com%2FBug-Bounty-top-100%2F)
