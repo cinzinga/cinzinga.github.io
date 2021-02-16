@@ -15,7 +15,7 @@ I am currently finishing up my A.S in Information Technology Networking from NHT
 
 I work as a cyber threat intelligence intern at a company in New Boston, NH. There I utilize open sourced information gathering to develop actionable intelligence for business.
 
-Additionally, I am an active bug bounty hunter with Synack Red Team and Bugcrowd (currently ranked in the all-time top 150).
+Additionally, I am an active bug bounty hunter with Synack Red Team and Bugcrowd (currently ranked in the all-time top 100).
 
 ## Home Life
 In my free time I enjoy the outdoors, walking my dogs, and listening to audiobooks. I am also an avid Star Wars fan and enjoy brewing my own beer!
