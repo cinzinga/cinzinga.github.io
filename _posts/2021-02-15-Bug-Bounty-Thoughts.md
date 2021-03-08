@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Bug Hunting Thoughts\& Statistics
+title: Bug Hunting Thoughts & Statistics
 date: 2021-02-15
 classes: wide
 header:
