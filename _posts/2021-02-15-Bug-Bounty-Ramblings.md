@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Ramblings of a Bug Hunter
+title: Bug Hunting Thoughts \& Statistics
 date: 2021-02-15
 classes: wide
 header:
