@@ -75,7 +75,7 @@ A. Okay! Go to the next section.
 
 ## The Exam  
 
-Since this exam is still very new, I am hesitant to talk much about it. However, I will share some brief thoughts as well as statistics from my own attempt. I found the exam to be very fair. That being said I *highly* recommend having gone through the PDF and exercises (if not the extra mile exercises) before taking it. Just because an attack is or is not in the labs does not mean it will or will not be in the exam. However, if you understand each attack in the course and understand each attack in the labs, I have full confidence you can pass the exam. I found the exam to be tough but fair. Moreover, the exam offers multiple paths to pass, a luxury that is not afforded in any of the challenge labs.  
+Since this exam is still very new, I am hesitant to talk much about it. However, I will share some brief thoughts as well as statistics from my own attempt. I found the exam to be very fair. That being said I *highly* recommend having gone through the PDF and exercises (if not the extra mile exercises) before taking it. Just because an attack is or is not in the labs does not mean it will or will not be in the exam. However, if you understand each attack in the course and understand each attack in the labs, I have full confidence you can pass the exam. I found the exam to be tough but fair. Moreover, the exam offers multiple ways to pass, a luxury that is not afforded in any of the challenge labs.  
 
 Below are some statistics from my own exam attempt:
 -	Started at 10AM
