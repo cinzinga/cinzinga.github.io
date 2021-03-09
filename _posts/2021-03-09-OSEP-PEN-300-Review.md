@@ -43,22 +43,22 @@ Labs four through six are where the student is encouraged to struggle, learn, an
 
 Before I (briefly) talk about the exam and my experience, I will answer some questions asked by friends in the InfoSec Prep discord server.
 
-Q. Overall enjoyment of the course?
+Q. Overall enjoyment of the course?  
 A. I loved the course! I found it way more enjoyable than OSCP (perhaps that is because I am more into information security now than I was then?) Regardless, I consider OSCP to be a gateway certification that opens the floodgates to greater learning. This certification was definitely the best that I have taken since my OSCP.
 
-Q. Any Win32 APIs taught in the course?
+Q. Any Win32 APIs taught in the course?  
 A. Yes! This course was the first time I had ever heard of the Win32 APIs (I am a Mac user) and it was a nice introduction. The course material certainly gave me enough experience to go forth on my own and interact with these APIs with C# code.
 
-Q. Favorite and least favorite topics?
+Q. Favorite and least favorite topics?  
 A. The material such as coding malicious macros and kiosk escapes was definitely the most fun for me, but at the same time probably impractical on many penetration tests. However, I still thoroughly enjoyed it. There were definitely some moments in the AV evasion chapters that it got slow to work through, but in the end the knowledge was invaluable!
 
-Q. What makes PEN-300 a “300” level course compared to PEN-200(PWK)?
+Q. What makes PEN-300 a “300” level course compared to PEN-200(PWK)?  
 A. PWK (PEN-200) is an introductory course to penetration testing. In addition to teaching the basics of many tools (nmap, sqlmap, hashcat, etc.) it teaches students how to think like a penetration tester. By that I mean it teaches students to enumerate, research, enumerate more, and finally exploit. PEN-300 is more advanced than that, it assumes all those initial foothold and privileges escalation skills are a pre-requisite. Beyond the course, it encourages students to exercise creativity based off previous research to go forth and pioneer new techniques and vulnerability research. The tools taught in PEN-300 are not timeless, but the techniques are.
 
-Q. How much time and effort was spent on each module?
+Q. How much time and effort was spent on each module?  
 A. The entire course took me approximately 2 months to get through. I was fortunate to have a lot of time over the holidays (December/ January) to work through the material and take detailed notes. While the first 15-16 modules are not strictly AD attacks, I would advise against skipping them to get to the AD stuff faster. A lot of the tradecraft taught in those chapter is important to understanding the course material. Almost everything builds upon the previous chapter and skipping around willy-nilly is not conducive to a positive learning experience. 
 
-Q. Did you have to learn much on your own, outside of the course?
+Q. Did you have to learn much on your own, outside of the course?  
 A. Almost nothing! As previously stated, I only did CRTP prior to beginning OSEP. Once I completed all the material in the labs in about 60 of my 90 days, I actually did start HTB’s Offshore labs; however, I did not enjoy this experience. Much of the AD attacks (once you waded through a lot of the beginning CTF stuff) were easily solved with BloodHound and offered no learning experience or explanation. I solely relied on my own notes from the PDF, videos, and labs to crack the exam.
 
 Q. Was Meterpreter your go-to payload throughout the course or did you utilize other tools / C2s? 
@@ -67,7 +67,7 @@ A. Yes! I actually came to love Meterpreter throughout this course. I exclusivel
 Q. How did this course fit within the education process of a novice pentester?  
 A. While I cannot fully answer this question (as I am not a professional pentester), I believe that this course is quality education for any aspiring pentester. It is often said that OSCP will get your foot in the door for pentesting, but I believe this course will get you to the top of the list for pentesting applications. Again, I am still currently a student so I cannot answer this question with full confidence, but this certification certainly will not hurt your career!  
 
-Q. 60 versus 90 days?
+Q. 60 versus 90 days?  
 A. While I completed all of the course work in approximately 60 days, this track is not for everyone. I am currently a college student and I was blessed to have a few weeks off in December/ January that enabled me to swiftly complete the material and labs.  
 
 Q. Tell us about your exam experience already!!  
