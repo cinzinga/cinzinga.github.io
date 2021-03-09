@@ -70,7 +70,7 @@ A. While I cannot fully answer this question (as I am not a professional pentest
 Q. 60 versus 90 days?
 A. While I completed all of the course work in approximately 60 days, this track is not for everyone. I am currently a college student and I was blessed to have a few weeks off in December/ January that enabled me to swiftly complete the material and labs.  
 
-Q. Tell us about your exam experience already!!
+Q. Tell us about your exam experience already!!  
 A. Okay! Go to the next section.  
 
 ## The Exam  
