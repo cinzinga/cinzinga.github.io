@@ -10,7 +10,6 @@ tags:
   - Certification
   - Penetration Testing
 --- 
-![](/assets/images/offsec.png)  
 
 I am proud to have completed Offensive Security's Evasion Techniques and Breaching Defenses (PEN-300) course. After successfully passing the 48-hour exam, I earned my Offensive Security Experienced Penetration Tester (OSEP) certification. This is currently the most advanced certification in Offensive Security's penetration testing track.
 
@@ -91,4 +90,4 @@ Below are some statistics from my own exam attempt:
 
 Well, I hope you have enjoyed reading about my PEN-300 course and exam experience. If you have any further questions I can be reached via Twitter/ LinkedIn via my links on the left side of this page, otherwise you can find me in the [InfoSec Prep discord](https://discord.gg/ABmvaUUEyR) under the username `Homebrewer`. Thanks for reading!
 
-
+![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fcinzinga.com%2FOSEP-PEN-300-Review%2F)
