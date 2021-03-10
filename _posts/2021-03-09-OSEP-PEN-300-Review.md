@@ -15,7 +15,7 @@ I am proud to have completed Offensive Security's Evasion Techniques and Breachi
 
 ## Background
 
-Prior to starting PEN-300, I had very little active directory exploitation experience. Through school, I had set up an AD lab which offered great insight into the structure of a domain. Additionally, I had previously passed Pentester Academy’s Certified Red Team Professional (CRTP). Since I took the version of Pentesting With Kali (PWK) that did not include AD attacks (PWKv1), I found CRTP to be the perfect preparation to help bridge the gap between PWKv1 and PEN-300. 
+Prior to starting PEN-300, I had limited active directory exploitation experience. Through school, I had set up an AD lab which offered great insight into the structure of a domain. Additionally, I had previously passed Pentester Academy’s Certified Red Team Professional (CRTP). Since I took the version of Pentesting With Kali (PWK) that did not include AD attacks (PWKv1), I found CRTP to be the perfect preparation to help bridge the gap between PWKv1 and PEN-300. 
 
 As a fun aside, one of the course authors confirmed I was actually the first student to register for PEN-300!
 
