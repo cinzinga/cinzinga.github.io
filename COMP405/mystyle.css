@@ -26,7 +26,7 @@
       }
       .button {
             display: block;
-            background-color: #66cc66;
+            background-color: #9dcc51;
             color: white;
             padding: 10px;
             margin-left: 45%;
@@ -37,10 +37,11 @@
       .nav-bar-list {
         float: left;
         padding-top: 10px;
+        color: white;
       }
 
       .nav-bar-link {
-        color: #878787;
+        color: white;
         font-size: 24px;
         padding: 20px;
       }
