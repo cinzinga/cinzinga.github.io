@@ -3,82 +3,98 @@
 <head>
     <title>My Cyber Endeavors</title>
     <meta charset="UTF-8">
-	<link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="mystyle.css">
+    <style>
+        
+    </style>
 </head>
 
 <body>
-    <div>
-        <ul class="nav-bar">
-            <li class="nav-bar-list"><a class="nav-bar-link" href="index.html">Home</a></li>
-            <li class="nav-bar-list"><a class="nav-bar-link" href="page2.html">tab2</a></li>
-            <li class="nav-bar-list"><a class="nav-bar-link" href="page3.html">tab3</a></li>
-            <li class="nav-bar-list"><a class="nav-bar-link" href="page4.html">tab4</a></li>
-        </ul>
+    <div class="nav-header">
+        <img class="logo-img" src="imgs/background.png" alt="InfoSec logo">
+        <div class="nav-div">
+            <ul class="nav-bar">
+                <li class="nav-bar-list"><a class="nav-bar-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-bar-list"><a class="nav-bar-link" href="page2.html">Education</a>
+                </li>
+                <li class="nav-bar-list"><a class="nav-bar-link" href="page3.html">Certifications</a>
+                </li>
+            </ul>
+        </div>
+        <div class="search-icon">
+            <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+        </div>
     </div>
-    <div class="search-icon">
-        <i class="fa fa-search fa-2x" aria-hidden="true"></i>
-    </div>
+
     <div class="main-header">
-        <h1>Coming Soon!<br></h1>
-        
+        <h1 class="main-header-title">My Cyber Endeavors</h1>
+        <div class="main-header-intro">
+           
+        </div>
     </div>
 
-    <p class="intro">
-        Page 3 coming soon.
-    </p>
-
-    <a href="javascript:alert('¯\\_(ツ)_/¯')" class="button">Button</a>
+    <h2>Certifications</h2>
+    <div class="intro">
+        <p>In my free time, I enjoy challenging myself to earn industry leading certifications that will make me competitive upon graduation.
+        </p>
+    </div>
 
     <div class="box">
         <div class="card">
-            <div>
-                <img src="imgs/2.png" alt="CVEs">
-            </div>
-            <h3>Lorem ipsum</h3>
+            <img src="imgs/oscp.png" alt="OSCP">
+            <h3>OSCP</h3>
             <p>
-                Lorem ipsum
+                The Offensive Security Certified Professional (OSCP) is an introductory penetration testing certification. It is considered the gold-standard for junior penetration testers. The exam is a 24-hour hands on exam where students must demonstrate proficiency in the following areas:
             </p>
             <ul>
-                <li><a href="#">Lorem ipsum</a></li>
-                <li><a href="#">Lorem ipsum</a></li>
-                <li><a href="#">Lorem ipsum</a></li>
+                <li>Network Vulnerability Scanning</a>
+                </li>
+                <li>Privilege Escalation</a>
+                </li>
+                <li>Basic Buffer Overflows</a>
+                </li>
             </ul>
         </div>
         <!-- End of class .card -->
 
         <div class="card">
-            <div>
-                <img src="imgs/3.png" alt="Certifications">
-            </div>
-            <br><br><br><br>
-            <h3>Lorem ipsum</h3>
+            <img src="imgs/osep.png" alt="OSEP">
+            <h3>OSEP</h3>
             <p>
-                Lorem ipsum
+                The Offensive Security Experienced Penetration Tester (OSEP) is a much more advanced certification that OSCP. This certification tests a student’s skills to compromised hardened information systems. The exam is a 48-hour hands on exam where students must demonstrate proficiency in the following areas:
             </p>
             <ol>
-                <li>Lorem ipsum</li>
-                <li>Lorem ipsum</li>
-                <li>Lorem ipsum</li>
-            </ol>
-        </div>
-        <div class="card">
-            <div>
-                <img src="imgs/4.png" alt="Profile" style="width: 50%">
-            </div>
-            <br><br><br><br>
-            <h3>Lorem ipsum</h3>
-            <p>
-                Lorem ipsum
-            </p>
-            <ol>
-                <li>Lorem ipsum</li>
-                <li>Lorem ipsum</li>
+                <li>Antivirus Evasion</li>
+                <li>MSSQL Attacks</li>
+                <li>Advanced Lateral Movement</li>
             </ol>
         </div>
         <!-- End of class .card -->
+
+        <div class="card">
+            <img src="imgs/sec.png" alt="Security Plus">
+            <h3>Security+</h3>
+            <p>
+                The Security+ certification by CompTIA is a very introductory cyber security certification. It is a written test consisting of multiple choice questions. This certification teaches the core knowledge needed to move forward in a cyber security career. A student will learn:
+            </p>
+            <ul>
+                <li>Secure Design & Implementation</li>
+                <li>Operations & Incident Response</li>
+                <li>Risk & Compliance</li>
+            </ul>
+        </div>
+        <!-- End of class .card -->
+
     </div>
     <!-- End of class .box -->
-    
+
+    <div class="footer">
+        <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-flickr fa-2x" aria-hidden="true"></i>
+    </div>
 </body>
 
 </html>
