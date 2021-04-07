@@ -3,53 +3,65 @@
 <head>
     <title>My Cyber Endeavors</title>
     <meta charset="UTF-8">
-	<link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="mystyle.css">
+    <style>
+        
+    </style>
 </head>
 
 <body>
-    <div>
-        <ul class="nav-bar">
-            <li class="nav-bar-list"><a class="nav-bar-link" href="index.html">Home</a></li>
-            <li class="nav-bar-list"><a class="nav-bar-link" href="page2.html">tab2</a></li>
-            <li class="nav-bar-list"><a class="nav-bar-link" href="page3.html">tab3</a></li>
-            <li class="nav-bar-list"><a class="nav-bar-link" href="page4.html">tab4</a></li>
-        </ul>
+    <div class="nav-header">
+        <img class="logo-img" src="imgs/background.png" alt="InfoSec logo">
+        <div class="nav-div">
+            <ul class="nav-bar">
+                <li class="nav-bar-list"><a class="nav-bar-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-bar-list"><a class="nav-bar-link" href="page2.html">Education</a>
+                </li>
+                <li class="nav-bar-list"><a class="nav-bar-link" href="page3.html">Certifications</a>
+                </li>
+            </ul>
+        </div>
+        <div class="search-icon">
+            <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+        </div>
     </div>
-    <div class="search-icon">
-        <i class="fa fa-search fa-2x" aria-hidden="true"></i>
-    </div>
+
     <div class="main-header">
-        <h1>My Cyber Endeavors<br></h1>
+        <h1 class="main-header-title">My Cyber Endeavors</h1>
+        <div class="main-header-intro">
+           
+        </div>
     </div>
 
-    <p class="intro">
-        Welcome to my blog, this is a place for me to share a portfolio of my digital accomplishements.
-    </p>
-
-    <a href="javascript:alert('¯\\_(ツ)_/¯')" class="button">Button</a>
+    <h2>Welcome to my blog!</h2>
+    <div class="intro">
+        <p>This is a place for me to share a portfolio of my digital accomplishements, projects, and experiences.
+        </p>
+        <a href="javascript:alert('¯\\_(ツ)_/¯')" class="button"> Button </a>
+    </div>
 
     <div class="box">
         <div class="card">
-            <div>
-                <img src="imgs/2.png" alt="CVEs">
-            </div>
+            <img src="imgs/2.jpeg" alt="CVEs">
             <h3>CVE Publications</h3>
             <p>
                 In my free time I enjoy pursuing independed vulnerability research and responsibly disclosuring exploits I discover. Below are a few of my recent discoveries.
             </p>
             <ul>
-                <li><a href="https://github.com/HewlettPackard/LinuxKI/releases/tag/v6.0-2">CVE-2020-7209</a></li>
-                <li><a href="https://github.com/cinzinga/CVEs/tree/master/CVE-2020-10557">CVE-2020-10557</a></li>
-                <li><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-6637">CVE-2020-6637</a></li>
+                <li><a href="https://github.com/HewlettPackard/LinuxKI/releases/tag/v6.0-2">CVE-2020-7209</a>
+                </li>
+                <li><a href="https://github.com/cinzinga/CVEs/tree/master/CVE-2020-10557">CVE-2020-10557</a>
+                </li>
+                <li><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-6637">CVE-2020-6637</a>
+                </li>
             </ul>
         </div>
         <!-- End of class .card -->
 
         <div class="card">
-            <div>
-                <img src="imgs/3.png" alt="Certifications">
-            </div>
-            <br><br><br><br>
+            <img src="imgs/3.jpeg" alt="Certs">
             <h3>Professional Certifications</h3>
             <p>
                 I also enjoy pursuing professional certifications. Most recently I took a 48-hour, hands on, proctored penetration testing exam called OSEP! Some other ones are listed below:
@@ -60,27 +72,29 @@
                 <li>CompTIA Security+</li>
             </ol>
         </div>
+        <!-- End of class .card -->
+
         <div class="card">
-            <div>
-                <img src="imgs/4.png" alt="Profile" style="width: 50%">
-            </div>
-            <br><br><br><br>
+            <img src="imgs/4.jpeg" alt="Profile">
             <h3>About Me</h3>
             <p>
-                This will be a link to about me stuff like:
+                If you want to connect with me more, you can find my contact info below:
             </p>
-            <ol>
-                <li>Resume</li>
-                <li>LinkedIn</li>
-            </ol>
+            <ul>
+                <li><a href="mailto:example@example.com">Email</a></li>
+                <li><a href="https://www.linkedin.com/in/christopher-inzinga/">LinkedIn</a></li>
+            </ul>
         </div>
         <!-- End of class .card -->
+
     </div>
     <!-- End of class .box -->
-    <br>
-    <iframe
-		src="https://www.youtube.com/embed/dQw4w9WgXcQ">
-	</iframe>
+
+    <div class="footer">
+        <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-flickr fa-2x" aria-hidden="true"></i>
+    </div>
 </body>
 
 </html>
