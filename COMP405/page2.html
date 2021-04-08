@@ -55,9 +55,9 @@
             
             <h3>Cross-Site Scripting</h3>
             <p>
-                Cross-Site Scripting (XSS) is an extremely prevelant web vulnerability. XSS occurs when a malicious user or threat actor can inject custom JavaScript code into a web page. This code is either reflected or stored on the web page. Subsequent users that visit the altered page will trigger the JavaScript code, resulting in a number of potential outcomes. In the most severe cases, XSS can be used to steal session cookies and result in session hijacking.
+                Cross-Site Scripting (XSS) is an extremely prevalent web vulnerability. XSS occurs when a malicious user or threat actor can inject custom JavaScript code into a web page. This code is either reflected or stored on the web page. Subsequent users that visit the altered page will trigger the JavaScript code, resulting in a number of potential outcomes. In the most severe cases, XSS can be used to steal session cookies and result in session hijacking.
                 <br><br>
-                XSS occurs when user input is trusted without sanitization. For example, consider the following scenario: You login to a website. The website greets you with your name, displaying "Hello Chris" on the page. However, a malicious user sets his or her name to the following string:
+                XSS occurs when user input is trusted without sensitization. For example, consider the following scenario: You login to a website. The website greets you with your name, displaying "Hello Chris" on the page. However, a malicious user sets his or her name to the following string:
                 <br><br>
                 <code class="codeblock">
                     &lt;script&gt;alert(1)&lt;/script&gt;
@@ -80,13 +80,13 @@
             
             <h3>SQL Injection</h3>
             <p>
-                SQL Injection is a much more severe web vulnerability. With SQL injection, a malicious user is able to directly pass their own custom SQL queries to a backend database. This allows them to run malicious queries that oftentimes result in full database compromise. SQL injection once again occurs when a website blindly trusts user input. For example, consider the example URL below:
+                SQL Injection is a much more severe web vulnerability. With SQL injection, a malicious user is able to directly pass their own custom SQL queries to a back-end database. This allows them to run malicious queries that oftentimes result in full database compromise. SQL injection once again occurs when a website blindly trusts user input. For example, consider the example URL below:
                 <br><br>
                 <code class="codeblock">
                     http://example.com/profile.php?userID=1
                 </code>
                 <br><br>
-                This fictitious webpage would load the profile page for the user with userID equal to 1. A backend SQL query for this may look similar to the following:
+                This fictitious webpage would load the profile page for the user with userID equal to 1. A back-end SQL query for this may look similar to the following:
                 <br><br>
                 <code class="codeblock">
                     SELECT * FROM users WHERE userID='1';
@@ -119,7 +119,7 @@
             
             <h3>Local File Inclusion</h3>
             <p>
-                Local file inclusion (LFI) is a relatively rare vulnerability; however, it is generally critical in severity. LFI occurs when a webserver is attempting to retreive an interal file or page through a URL parameter. Consider the following URL:
+                Local file inclusion (LFI) is a relatively rare vulnerability; however, it is generally critical in severity. LFI occurs when a web server is attempting to retrieve an internal file or page through a URL parameter. Consider the following URL:
                 <br><br>
                 <code class="codeblock">
                     http://example.com/gallery.php?file=dog.jpg
@@ -131,7 +131,7 @@
                     http://example.com/gallery.php?file=../../../etc/passwd
                 </code>
                 <br><br>
-                Now, instead of fetching the dog.jpg picture, this webserver will instead retreive the /etc/passwd file (a sensitive file for Linux webservers). If the user can control this parameter with no restrictions they can view any file on the filesystem. As previously mentioned, this vulnerability is relatively rare, I have only discovered 3 in my career.
+                Now, instead of fetching the dog.jpg picture, this web server will instead retrieve the /etc/passwd file (a sensitive file for Linux web servers). If the user can control this parameter with no restrictions they can view any file on the file system. As previously mentioned, this vulnerability is relatively rare, I have only discovered 3 in my career.
             </p>
             
         </div>
@@ -139,7 +139,7 @@
             
             <h3>XSS Examples</h3>
             <p>
-                As an example, I have intentionally embedded some XSS examples here. Mouseover each one to observe as the JavaScript executes.
+                As an example, I have intentionally embedded some XSS examples here. Mouse-over each one to observe as the JavaScript executes.
                 <br><br>
                 XSS with img tags:
                 <img src=x onmouseover=alert("XSS")>
