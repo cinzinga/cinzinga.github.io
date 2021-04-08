@@ -17,9 +17,11 @@
             <ul class="nav-bar">
                 <li class="nav-bar-list"><a class="nav-bar-link" href="index.html">Home</a>
                 </li>
-                <li class="nav-bar-list"><a class="nav-bar-link" href="page2.html">Education</a>
+                <li class="nav-bar-list"><a class="nav-bar-link" href="page2.html">Vulnerabilities</a>
                 </li>
                 <li class="nav-bar-list"><a class="nav-bar-link" href="page3.html">Certifications</a>
+                </li>
+                <li class="nav-bar-list"><a class="nav-bar-link" href="page4.html">Blog</a>
                 </li>
             </ul>
         </div>
@@ -35,54 +37,121 @@
         </div>
     </div>
 
-    <h2>Education</h2>
+    <h2>Web Vulnerabilities</h2>
     <div class="intro">
-        <p>On this page I will talk about my educational history.
+        <p>In this page talk about some basic web vulnerabilities and mitigations. Use the navigation menu below to jump to a specific part of the page.
         </p>
     </div>
-
-    <div class="box">
-        <div class="card">
-            <img src="imgs/mx.png" alt="Middlesex">
-            <h3>Middlesex</h3>
+    <div class="nav">
+        <ul>
+            <li><a href="#XSS">XSS</a><br></li>
+            <li><a href="#SQLi">SQLi</a><br></li>
+            <li><a href="#LFI">LFI</a><br></li>
+            <li><a href="#Examples">Examples</a><br></li>
+    </ul>
+    </div>
+    <div class="box2">
+        <div class="card2" id="XSS">
+            
+            <h3>Cross-Site Scripting</h3>
             <p>
-                I attended a small high school in Concord, Massachusetts called Middlesex School. Some classes and extra-currlicular events I enjoyed there include:
+                Cross-Site Scripting (XSS) is an extremely prevelant web vulnerability. XSS occurs when a malicious user or threat actor can inject custom JavaScript code into a web page. This code is either reflected or stored on the web page. Subsequent users that visit the altered page will trigger the JavaScript code, resulting in a number of potential outcomes. In the most severe cases, XSS can be used to steal session cookies and result in session hijacking.
+                <br><br>
+                XSS occurs when user input is trusted without sanitization. For example, consider the following scenario: You login to a website. The website greets you with your name, displaying "Hello Chris" on the page. However, a malicious user sets his or her name to the following string:
+                <br><br>
+                <code class="codeblock">
+                    &lt;script&gt;alert(1)&lt;/script&gt;
+                </code>
+                <br><br>
+                In turn, the website would now try to display the following text: "Hello &lt;script&gt;alert(1)&lt;/script&gt;". If the website was not properly sanitizing this code, the script tags would render and execute the alert function. This is a very simple example, but demonstrates the basic fundamentals of XSS. In my career I have discovered and reported over 130 XSS vulnerabilities. The three major types of XSS are: 
             </p>
             <ul>
-                <li>Crew</a>
+                <li>Reflected XSS</a>
                 </li>
-                <li>Wrestling</a>
+                <li>Stored XSS</a>
                 </li>
-                <li>Chemistry</a>
+                <li>DOM XSS</a>
                 </li>
             </ul>
         </div>
         <!-- End of class .card -->
 
-        <div class="card">
-            <img src="imgs/nhti.png" alt="NHTI">
-            <h3>NHTI</h3>
+        <div class="card2" id="SQLi">
+            
+            <h3>SQL Injection</h3>
             <p>
-                In 2019, I returned to New Hampshire to attend NHTI - Concord's Community College. During this period of time my interest in Cyber Security was reinvigorated. In my free time I began to branch out, learning some of the following topics:
+                SQL Injection is a much more severe web vulnerability. With SQL injection, a malicious user is able to directly pass their own custom SQL queries to a backend database. This allows them to run malicious queries that oftentimes result in full database compromise. SQL injection once again occurs when a website blindly trusts user input. For example, consider the example URL below:
+                <br><br>
+                <code class="codeblock">
+                    http://example.com/profile.php?userID=1
+                </code>
+                <br><br>
+                This fictitious webpage would load the profile page for the user with userID equal to 1. A backend SQL query for this may look similar to the following:
+                <br><br>
+                <code class="codeblock">
+                    SELECT * FROM users WHERE userID='1';
+                </code>
+                <br><br>
+                However, consider if a malicious user injected the following SQL query into the URL:
+                <br><br>
+                <code class="codeblock">
+                    http://example.com/profile.php?userID=1' AND userID='2
+                </code>
+                <br><br>
+                Now, the backend SQL query would be altered. It would query the following:
+                <br><br>
+                <code class="codeblock">
+                    SELECT * FROM users WHERE userID='1' AND userID='2';
+                </code>
+                <br><br>
+                This would now select the information for userID 1, but it would also display the information for userID 2. Consider if userID 2 was meant to be private, the information would still show on user 1's page. Again, this is a very simple example but it demonstrates the potential dangers of SQLi. In my career I have found roughly 15 SQL injection vulnerabilities. The main types of SQLi are shown below:
             </p>
             <ol>
-                <li>Offensive Security</li>
-                <li>Bug Bounty Hunting</li>
-                <li>Programming</li>
+                <li>Error-Based SQLi</li>
+                <li>Union-Based SQLi</li>
+                <li>Boolean-Blind SQLi</li>
+                <li>Time-Based SQLi</li>
             </ol>
         </div>
         <!-- End of class .card -->
 
-        <div class="card">
-            <img src="imgs/unh.png" alt="UNH">
-            <h3>UNH</h3>
+        <div class="card2" id="LFI">
+            
+            <h3>Local File Inclusion</h3>
             <p>
-                After my time at NHTI, I transferred to UNH where I am currently completing my Junior year. I am studying Computer Information Systems and looking forward to graduating next year and entering the workforce. Some classes I am enjoying this semester are listed below:
+                Local file inclusion (LFI) is a relatively rare vulnerability; however, it is generally critical in severity. LFI occurs when a webserver is attempting to retreive an interal file or page through a URL parameter. Consider the following URL:
+                <br><br>
+                <code class="codeblock">
+                    http://example.com/gallery.php?file=dog.jpg
+                </code>
+                <br><br>
+                This code might be a website with a gallery where a user is viewing a cute dog picture. However, consider if the user injected the following path in the file parameter:
+                <br><br>
+                <code class="codeblock">
+                    http://example.com/gallery.php?file=../../../etc/passwd
+                </code>
+                <br><br>
+                Now, instead of fetching the dog.jpg picture, this webserver will instead retreive the /etc/passwd file (a sensitive file for Linux webservers). If the user can control this parameter with no restrictions they can view any file on the filesystem. As previously mentioned, this vulnerability is relatively rare, I have only discovered 3 in my career.
             </p>
-            <ul>
-                <li>COMP 424</li>
-                <li>COMP 405</li>
-            </ul>
+            
+        </div>
+        <div class="card2" id="Examples">
+            
+            <h3>XSS Examples</h3>
+            <p>
+                As an example, I have intentionally embedded some XSS examples here. Mouseover each one to observe as the JavaScript executes.
+                <br><br>
+                XSS with img tags:
+                <img src=x onmouseover=alert("XSS")>
+                <br><br>
+                XSS with iframe tags:
+                <iframe src=x onmouseover=alert("XSS")></iframe>
+                <br><br>
+                XSS with marquee tags:
+                <marquee onmouseover=alert("XSS")>Touch me!! </marquee>
+
+            </p>
+            
         </div>
         <!-- End of class .card -->
 
@@ -90,8 +159,6 @@
     <!-- End of class .box -->
 
     <div class="footer">
-        <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
-        <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
         <i class="fa fa-flickr fa-2x" aria-hidden="true"></i>
     </div>
 </body>

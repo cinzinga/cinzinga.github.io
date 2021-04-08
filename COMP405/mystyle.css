@@ -99,9 +99,25 @@
             width: 80%;
             margin: auto;
         }
+        .box2 {
+            display: inline-block;
+            margin: auto;
+            margin-right: 1%;
+        }
 
         .card {
             width: 100%;
+            padding: 20px;
+            text-align: left;
+            border: 1px grey solid;
+            margin: 20px;
+            margin-top: 40px;
+            border-radius: 5px;
+            background: #f0f5f5;
+            box-shadow: 5px 5px 5px #888888;
+        }
+        .card2 {
+            
             padding: 20px;
             text-align: left;
             border: 1px grey solid;
@@ -116,6 +132,16 @@
             height: 40px;
             background: #f0f5f5;
             padding: 5px;
+        }
+        .codeblock{
+            background-color: lightgray;
+            margin: 10px;
+            padding: 3px;
+            border-radius: 2px;
+        }
+        .nav{
+            text-align: left;
+            margin-left: 40%;
         }
 
         
@@ -145,6 +171,11 @@
           display: inline-flex;
           flex-direction: column;
           margin-right: 10%;
+        }
+        .box2 {
+          display: inline-flex;
+          flex-direction: column;
+          margin-right: 1%;
         }
       
 
