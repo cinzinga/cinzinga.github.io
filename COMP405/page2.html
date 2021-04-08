@@ -145,7 +145,7 @@
                 <img src=x onmouseover=alert("XSS")>
                 <br><br>
                 XSS with iframe tags:
-                <iframe src=xxx onmouseover=alert("XSS")></iframe>
+                <iframe width="230" height="140" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" onmouseover=alert("XSS")></iframe>
                 <br><br>
                 XSS with marquee tags:
                 <marquee onmouseover=alert("XSS")>Touch me!! </marquee>
