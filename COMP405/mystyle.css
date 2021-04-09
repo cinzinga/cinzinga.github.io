@@ -86,7 +86,7 @@
             background: #9dcc51;
             color: white;
             padding: 15px;
-            font-size: 24px;
+            font-size: 18px;
             width: 160px;
             margin: auto;
             text-decoration: none;
@@ -139,9 +139,22 @@
             padding: 3px;
             border-radius: 2px;
         }
+        .nav-title{
+            text-align: center;
+        }
+
         .nav{
+            margin-left: 10%;
             text-align: left;
-            margin-left: 40%;
+            border: 1px solid;
+            display: table;
+            padding: 20px;
+            padding-right: 40px;
+            width: auto;
+            background: #f0f5f5;
+            border-radius: 5px;
+            box-shadow: 5px 5px 5px #888888;
+
         }
 
         

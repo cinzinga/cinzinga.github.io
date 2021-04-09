@@ -25,9 +25,7 @@
                 </li>
             </ul>
         </div>
-        <div class="search-icon">
-            <i class="fa fa-search fa-2x" aria-hidden="true"></i>
-        </div>
+
     </div>
 
     <div class="main-header">
@@ -43,10 +41,11 @@
         </p>
     </div>
     <div class="nav">
+        <h4 class="nav-title">Table of Contents</h4>
         <ul>
-            <li><a href="#XSS">XSS</a><br></li>
-            <li><a href="#SQLi">SQLi</a><br></li>
-            <li><a href="#LFI">LFI</a><br></li>
+            <li><a href="#XSS">Cross-Site Scripting</a><br></li>
+            <li><a href="#SQLi">SQL Injection</a><br></li>
+            <li><a href="#LFI">Local File Inclusion</a><br></li>
             <li><a href="#Examples">Examples</a><br></li>
     </ul>
     </div>
@@ -142,7 +141,7 @@
                 As an example, I have intentionally embedded some XSS examples here. Mouse-over each one to observe as the JavaScript executes.
                 <br><br>
                 XSS with img tags:
-                <img src=x onmouseover=alert("XSS")>
+                <img src=imgs/favicon.ico onmouseover=alert("XSS")>
                 <br><br>
                 XSS with iframe tags:
                 <iframe width="230" height="140" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" onmouseover=alert("XSS")></iframe>
