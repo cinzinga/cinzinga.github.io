@@ -138,17 +138,22 @@
             
             <h3>XSS Examples</h3>
             <p>
-                As an example, I have intentionally embedded some XSS examples here. Mouse-over each one to observe as the JavaScript executes.
+                As an example, I have intentionally created an intentionally vulnerable page to step you through exploiting XSS.
                 <br><br>
-                XSS with img tags:
-                <img src=imgs/favicon.ico onmouseover=alert("XSS")>
-                <br><br>
-                XSS with iframe tags:
-                <iframe width="230" height="140" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" onmouseover=alert("XSS")></iframe>
-                <br><br>
-                XSS with marquee tags:
-                <marquee onmouseover=alert("XSS")>Touch me!! </marquee>
-
+                <div>
+                <p>
+                        Example: <input type="text" id="vuln"/><button onclick='document.getElementById("demo").innerHTML = document.getElementById("vuln").value;'>Submit</button>
+                </p>
+                    <p id="demo"></p>
+                </div>
+                <p>Steps to Exploit:</p>
+                <ol>
+                    <li>First, enter some text and press "Submit", observe as it is reflected on the page.</li>
+                    <li>Next, try to place an HTML tag before your text, for example &lt;h1&gt;, submit your text again and observe as the HTML is rendered.</li>
+                    <li>Finally, attempted to execute JavaScript code by submitting the following payload: &lt;img src=x onerror=alert('xss!')&gt;</li>
+                    <li>Upon pressing "Submit" the JavaScript code will execute, creating a pop-up.</li>
+                    <li>While the alert box is a simple proof of concept, it illustrates that this field is vulnerable and could facilitate future attacks.</li>
+                </ol>
             </p>
             
         </div>
