@@ -65,6 +65,9 @@
             font-weight: normal;
             padding-left: 75px;
             text-shadow: 3px 2px grey;
+            position: absolute;
+            right: 100px;
+            top: 300px;
         }
 
         .main-header-intro {
@@ -91,7 +94,7 @@
             margin: auto;
             text-decoration: none;
             margin-top: 20px;
-            box-shadow: 2px 2px 2px #888888;
+
         }
 
         .box {
@@ -112,9 +115,8 @@
             border: 1px grey solid;
             margin: 20px;
             margin-top: 40px;
-            border-radius: 5px;
+            border-radius: 2px;
             background: #f0f5f5;
-            box-shadow: 5px 5px 5px #888888;
         }
         .card2 {
             
@@ -123,9 +125,9 @@
             border: 1px grey solid;
             margin: 20px;
             margin-top: 40px;
-            border-radius: 5px;
+            border-radius: 2px;
             background: #f0f5f5;
-            box-shadow: 5px 5px 5px #888888;
+
         }
 
         .footer {
@@ -136,11 +138,11 @@
         .codeblock{
             background-color: lightgray;
             margin: 10px;
-            padding: 3px;
-            border-radius: 2px;
-        }
-        .nav-title{
-            text-align: center;
+            padding: 5px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            border-radius: 1px;
+            border: 1px grey solid;
         }
 
         .nav{
@@ -152,11 +154,32 @@
             padding-right: 40px;
             width: auto;
             background: #f0f5f5;
-            border-radius: 5px;
-            box-shadow: 5px 5px 5px #888888;
+            border-radius: 22px;
+
 
         }
+        #nav-container {
+            background: #f0f5f5 none repeat scroll 0 0;
+            border: 1px solid #aaa;
+            display: table;
+            font-size: 95%;
+            margin-bottom: 1em;
+            padding: 20px;
+            width: auto;
+            margin-left:10%;
+            border-radius: 2px;
+        }
 
+        .nav-title {
+            font-weight: 700;
+            text-align: center;
+        }
+        #nav-container li, #nav-container ul, #nav-container ul li{
+             list-style: outside none none !important;
+        }
+        .nav-list{
+            text-align: left;
+        }
         
         @media only screen and (max-width: 600px) {
         .nav-header {
