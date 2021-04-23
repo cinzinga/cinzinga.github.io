@@ -248,11 +248,17 @@
           flex-direction: column;
           background-color: #f0f5f5;
           height: 300px;
+
+        }
+        .logo-img {
+            width:20%;
         }
         .nav-bar {
             display: flex;
             flex-direction: column;
             background-color: #f0f5f5;
+            margin-top:-5px;
+
         }
         .nav-bar-list {
           margin-top: 2px;
