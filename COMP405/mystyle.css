@@ -243,13 +243,11 @@
         }
         .me {
             width: 50%;
-            float: center;
             text-align: center;
             margin-left: 25%;
         }
         .cve{
             width: 75%;
-            float: center;
             text-align: center;
             margin-left: 15%;
         }
