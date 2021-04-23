@@ -7,13 +7,12 @@
             font-family: sans-serif;
             text-align: center;
         }
-
-        img {
-            max-width: 100%;
-        }
-
         a {
             text-decoration: none;
+            color: black;
+        }
+        a:hover {
+            color: lightgray;
         }
 
         .nav-header {
@@ -180,7 +179,47 @@
         .nav-list{
             text-align: left;
         }
-        
+        .FE {
+            width: 13%;
+            height: auto;
+            float: right;
+        }
+        .red {
+            width: 30%;
+            height: auto;
+            float: right;
+        }
+        .unh {
+            width: 25%;
+            height: auto;
+            float: right;
+        }
+        .nhti {
+            width: 25%;
+            height: auto;
+            float: right;
+        }
+        .bc {
+            width: 175px;
+            height: auto;
+            float: right;
+        }
+        .oscp {
+            width: 175px;
+            height: auto;
+            float: right;
+        }
+        .osep {
+            width: 175px;
+            height: auto;
+            float: right;
+        }
+        .sec {
+            width: 175px;
+            height: auto;
+            float: right;
+        }
+
         @media only screen and (max-width: 600px) {
         .nav-header {
           display: block;
@@ -212,8 +251,6 @@
           display: inline-flex;
           flex-direction: column;
           margin-right: 1%;
-        }
-      
-
+        } 
 
         }    
