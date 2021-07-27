@@ -71,7 +71,7 @@ I have encountered a number of sites that take more obscure XML file types as in
 
 To exploit these file uploads, I simply download [a sample KML file]( https://developers.google.com/kml/documentation/KML_Samples.kml) and append an XXE payload in the second line.
 
-To exploit the one I identified today, I made use of a great tool developed by a close friends [Tib3rius](https://twitter.com/0xTib3rius). The tool can be found [here]( https://github.com/WhiteOakSecurity/Dynamic-DTD).
+To exploit the one I identified today, I made use of a great tool developed by a close  [Tib3rius](https://twitter.com/0xTib3rius). The tool can be found [here]( https://github.com/WhiteOakSecurity/Dynamic-DTD).
 
 This app is run with the following command:
 ```
