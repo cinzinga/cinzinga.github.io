@@ -121,4 +121,4 @@ While I have not yet obtained XXE via Word or Excel file, it is something I have
 
 
 ## Conclusion
-While this article was brief, I hope it served to highlight some XXE vulnerabilities that I have exploited in the wild. While the bug type is not common, I have reported approximately a dozen XXE vulnerabilities in my bug bounty career. This number certainly warrants adding XXE checks to your arsenal of checks when assessing a web app’s security.
+While this article was brief, I hope it served to highlight some XXE vulnerabilities that I have exploited in the wild. While the bug type is not common, I have reported approximately a dozen XXE vulnerabilities in my bug bounty career. This number certainly warrants adding XXE checks to your arsenal when assessing a web app’s security.
