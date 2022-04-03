@@ -74,7 +74,7 @@ Alright, at this point I will get off my soapbox and do a bit more technical bre
 
 ![](/assets/images/2years/2.png)
 
-![](/assets/images/2/years3.png)
+![](/assets/images/2years/3.png)
 
 
 
