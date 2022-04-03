@@ -70,11 +70,11 @@ Alright, at this point I will get off my soapbox and do a bit more technical bre
 
 #### Bugcrowd
 
-![](/assets/images/1.png)
+![](/assets/images/1)
 
-![](/assets/images/2.png)
+![](/assets/images/2)
 
-![](/assets/images/3.png)
+![](/assets/images/3)
 
 
 
@@ -82,4 +82,4 @@ Alright, at this point I will get off my soapbox and do a bit more technical bre
 
 Statistics on Synack are bit harder to collect.
 
-![](/assets/images/4.png)
+![](/assets/images/4)
