@@ -12,7 +12,7 @@ tags:
 
 Two years ago this month, I created my first bug bounty account on Bugcrowd. I decided to try my hand at bug bounty hunting for a number of months. As outlined in my earlier article, "100 Days of Bug Hunting" I initially decided to try bug bounty as an experiment to determine its legitimacy. That blog post can be found [here](https://cinzinga.com/Bug-Bounty/). Over these last two years I have consistently bug hunted most days. Throughout this time, my approach and methodology have varied greatly. In this blog post I will outline some insights and statics that I hope you will find interesting.
 
- ## About Me
+## About Me
 
 First, a bit about my background. When I started bug bounty hunting in early 2020, I was sophomore (second year) in college. However, I was not entirely new to the field of information security and penetration testing. My interest for the topic really kicked off mid-2019 when I began studying for cyber security certifications such as [CompTIA’s Security+](https://www.comptia.org/certifications/security). 
 
@@ -66,15 +66,15 @@ Finally, avoid spamming messages on any platform. This includes platforms like T
 
 ## Personal Statistics
 
-Alright, at this point I will get off my soapbox and do a bit more technical breakdown of my personal statistics.
+Alright, at this point I will get off my soapbox and do a bit more technical breakdown of my findings. Moving forward I hope to write more technical blogs explaining some of my findings, similar to [this](https://cinzinga.com/XXE-Case-Studies/) article.
 
 #### Bugcrowd
 
-![](/assets/images/1)
+![](/assets/images/2years/1.png)
 
-![](/assets/images/2)
+![](/assets/images/2years/2.png)
 
-![](/assets/images/3)
+![](/assets/images/2/years3.png)
 
 
 
@@ -82,4 +82,4 @@ Alright, at this point I will get off my soapbox and do a bit more technical bre
 
 Statistics on Synack are bit harder to collect.
 
-![](/assets/images/4)
+![](/assets/images/2years/4.png)
