@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "cinzinga"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "OSEP, OSCP, Sec+"
+  bio    : "OSEP, OSCP, OSWP"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
