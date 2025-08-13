@@ -11,7 +11,7 @@ tags:
   - IoT
 ---
 
-I recently acquired a [Qingping Air Quality Monitor 2](https://www.qingping.co/air-monitor-2/overview) for monitoring indoor air quality. While I’ve been happy with the product, I’m inherently distrustful of IoT devices—especially those that connect to my home’s Wi-Fi network. So, I set out to investigate its functionality with the end goal of obtaining some form of command execution.
+I recently acquired a [Qingping Air Quality Monitor 2](https://www.qingping.co/air-monitor-2/overview) for monitoring indoor air quality. While I’ve been happy with the product, I’m inherently distrustful of IoT devices, especially those that connect to my home’s Wi-Fi network. So, I set out to investigate its functionality with the end goal of obtaining some form of command execution.
 
 ## Recon
 
