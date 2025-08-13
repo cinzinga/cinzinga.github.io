@@ -87,7 +87,10 @@ for f in *; do
 done
 ```
 
-Next we can zip everything up with a zip command: `zip -X -9 -q -r ../malicious_update.zip .` 
+Next we can zip everything up with a zip command: 
+```
+zip -X -9 -q -r ../malicious_update.zip .
+```
 
 Great, now we have crafted a malicious software update with an added Bash command. Once we supply this update to the device we should see a GET request to our web server.
 
