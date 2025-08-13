@@ -123,6 +123,6 @@ From here, obtaining a reverse shell is trivial. I personally had success modify
 
  ![](/assets/images/qingping/13.png)
 
- ## Further Research
+## Further Research
 
 The Qingping Air Quality Monitor also integrates with a mobile app, which could be another interesting target. The device’s firmware contains numerous binaries that manage its functions. Analyzing these could uncover deeper vulnerabilities. 
