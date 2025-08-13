@@ -89,6 +89,8 @@ for f in *; do
 done
 ```
 
+![](/assets/images/qingping/10.png)
+
 Next we can zip everything up with a zip command: 
 ```
 zip -X -9 -q -r ../malicious_update.zip .
