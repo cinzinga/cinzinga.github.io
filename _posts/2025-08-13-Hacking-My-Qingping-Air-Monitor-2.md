@@ -23,6 +23,8 @@ A quick search for this version shows a [2022 CVE](https://www.cvedetails.com/cv
 
 Next, I wanted to see what web requests the device makes when connected to the internet. On my home network I use NextDNS, which offers functionality similar to Pi-hole (though any DNS logging solution would work). Once connected to Wi-Fi, the Qingping device sent several requests to the `*.cleargrass.com` domain.
 
+![](/assets/images/qingping/15.png)
+
 As a web pentester, I immediately wanted to intercept and inspect these HTTP requests. To do this, I needed to MITM the device’s traffic. Fortunately, many home DNS solutions (router settings, Pi-hole, etc.) let you add custom DNS entries, so I could map `*.cleargrass.com` to my laptop’s IP address and redirect traffic there. If your network doesn’t have this feature, the tool [bettercap](https://www.bettercap.org/) can perform DNS spoofing to acheive similar results.
 
 ![](/assets/images/qingping/3.png)
