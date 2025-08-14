@@ -79,7 +79,7 @@ At this point, the attack path is clear: intercept the update process and delive
 
 ## Crafting our Malicious Update
 
-As previously discussed, `ota.sh` seems like a good candidate to insert our own Bash commands. Let's try a `curl` command to a web server we control to see if these commands will be execution upon updating the software.
+As previously discussed, `ota.sh` seems like a good candidate to insert our own Bash commands. Let's try a `curl` command to a web server we control to see if these commands will be executed upon updating the software.
 
 ![](/assets/images/qingping/9.png)
 
