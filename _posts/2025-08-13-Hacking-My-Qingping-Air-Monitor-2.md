@@ -105,14 +105,14 @@ zip -X -9 -q -r ../malicious_update.zip .
 Great, now we have crafted a malicious software update with an added Bash command. Once we supply this update to the device we should see a GET request to our web server.
 
 ## Delivering the Malicious Update
-Since we can intercept HTTP requests and responses to the device, it is trivial to supply our own .zip file in the HTTP response to the update request. However, as discussed above there are a few additional pieces of information required in the HTTP response headers, such as the MD5 hash. To assist with this, I once again vibe coded a brief script that handles all the math and delivers the proper response.
+Since we can intercept HTTP requests and responses to the device, it is trivial to supply our own .zip file in the HTTP response to the update request. However, as discussed above there are a few additional pieces of information required in the HTTP response headers, such as the MD5 hash. 
 
 The attack flow:
 1. DNS spoof the `*.cleargrass.com` domain
 2. Respond to the check update request with a new update
 3. Replace the system update zip file with our own malicious zip
 
-To acheive this, we will modify the previous python HTTPS server to deliver the malicious update. As noted, we will need to adjust MD5 hashes and other HTTP response headers for the device to accept the file. This is all handled by the code.
+To achieve this, we will modify the previous python HTTPS server to deliver the malicious update. As noted, we will need to adjust MD5 hashes and other HTTP response headers for the device to accept the file. This is all handled by the code.
 
 Let's see it in action. If all goes well we should see a curl request on our web server to `/qingping`. Starting the [updated python HTTPS server](/assets/code/qingping/zip_supply.py):
 ```
